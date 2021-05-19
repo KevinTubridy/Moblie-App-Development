@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      <img src ="https://upload.wikimedia.org/wikipedia/en/f/f2/Premier_League_Logo.svg">
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+ 
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ul>
+    <li [routerLink] ="['/liverpool']" routerDirection="forward">Liverpool</li>
+    <li [routerLink] ="['/mancity']" routerDirection="forward">ManchesterCity</li>
+    <li [routerLink] ="['/chelsea']" routerDirection="forward">Chelsea</li>
+    <li [routerLink] ="['/manutd']" routerDirection="forward">ManchesterUtd</li>
+  </ul>
+</ion-content>
